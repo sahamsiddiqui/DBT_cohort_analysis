@@ -1,6 +1,3 @@
-this file was created in github then pulled into local# gitlocal
-test git repo
+## DBT data model and cohort Analysis
 
-
-now its in my local machine and i am editting it in vscode 
-and i will push it back to git hub
+In this project i will transform the raw data in my BigQuery Datat platform to perform Chohort Analysis to understand user retention on the website on D1, D2, and D3  
