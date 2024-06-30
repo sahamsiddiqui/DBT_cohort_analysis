@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: mb
+    database: vivid-science-422315-s8
+    schema: testmb
+    tables:
+      - name: events_raw
+        identifier: df_raw
+        description: "Table containing raw events data tracking user interactions with the gaming app."
+        columns:
+          - name: event_id
+            description: "Unique identifier for each event."
+            tests:
+              - unique
+              - not_null
+                
+      - name: df_attp
+        description: "Table containing raw data on users and their attribution partner."
+        columns:
+          - name: player_id
+            description: "Unique identifier for each new users and their associated attribution partner."
+                    
