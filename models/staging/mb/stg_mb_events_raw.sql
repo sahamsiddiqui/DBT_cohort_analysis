@@ -20,6 +20,11 @@ renamed as (
     month, year, day
 
     from source
+    where event_id is not null
+    and event_name in ( 'player_match_created', 'player_match_failure',
+       'player_match_started', 'player_match_allocated',
+       'polar_player_login_event', 'polar_hero_match_finish_event' )
+     group by 1,2,3,4,5,6,7,8,9,10,11
 
 )
 

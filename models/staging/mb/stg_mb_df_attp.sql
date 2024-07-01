@@ -8,9 +8,9 @@ source as (
 
 cleaned as (
 
-    select
-        player_id,
-        attribution_partner
+    select *
+        #player_id,
+        #attribution_partner
 
     from source
     where player_id is not null

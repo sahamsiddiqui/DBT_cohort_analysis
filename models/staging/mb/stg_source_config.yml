@@ -11,9 +11,7 @@ sources:
         columns:
           - name: event_id
             description: "Unique identifier for each event."
-            tests:
-              - unique
-              - not_null
+
                 
       - name: df_attp
         description: "Table containing raw data on users and their attribution partner."

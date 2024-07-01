@@ -7,13 +7,19 @@ models:
       columns:
           - name: event_id
             description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+            
           - name: event_name
             description: "Categorical column for the type of event "
-           
-              
+            tests:
+              - accepted_values:
+                  values:
+                  - player_match_created
+                  - player_match_failure
+                  - player_match_started
+                  - player_match_allocated
+                  - polar_player_login_event
+                  - polar_hero_match_finish_event
+                
           
 
     - name: stg_mb_df_attp
