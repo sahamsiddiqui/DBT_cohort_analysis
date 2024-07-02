@@ -2,8 +2,6 @@
 
 In this project, I will transform raw data in my BigQuery data platform to perform cohort analysis to understand player retention on the web application from Day 1 until Day 10 for a gaming industry client.
 
-                 ![image](https://github.com/sahamsiddiqui/DBT_cohort_analysis/assets/52113462/05fb0bf0-dae1-48d7-9d6f-4686cdcb17dd)
-
 ## Project Overview
 This project demonstrates how to perform cohort analysis using dbt (Data Build Tool). The goal is to simulate a real-life project using dbt, git, to perform cohort analysis, which are crucial for any analytics engineer or data engineer.
 
