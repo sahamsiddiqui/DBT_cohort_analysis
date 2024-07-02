@@ -47,3 +47,5 @@ By analyzing the retention rates of different cohorts, we can gain insights into
 
 ## Conclusion
 This project simulates working with dbt and git to perform cohort analysis and create BI consumables for downstream users.
+Also, check out the Medium blog for this project [here](https://medium.com/@sahamsiddiqui/cohort-analysis-with-dbt-d28074817936).
+
