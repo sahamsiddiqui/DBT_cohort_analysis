@@ -5,10 +5,10 @@ In this project, I will transform raw data in my BigQuery data platform to perfo
 This project demonstrates how to perform cohort analysis using dbt (Data Build Tool). The goal is to simulate a real-life project using dbt, git, to perform cohort analysis, which are crucial for any analytics engineer or data engineer.
 
 ## Tech Stack 
-DBT: for transformation 
-Fivetran : for data integration
-BigQuery: Data warehouse
-Looker : Dashboard
+- DBT: for transformation 
+- Fivetran : for data integration
+- BigQuery: Data warehouse
+- Looker : Dashboard
 
 ## Introduction to dbt
 dbt (Data Build Tool) is a command-line tool that enables data analysts and engineers to transform data in their warehouse more effectively. Unlike traditional ETL tools, dbt focuses on the "T" in ETL—transformation. For this project, I used the dbt Cloud IDE, which provides a convenient way of working with dbt without worrying about the setup. With dbt, you can:
