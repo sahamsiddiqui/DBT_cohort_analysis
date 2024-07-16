@@ -47,7 +47,7 @@ By analyzing the retention rates of different cohorts, we can gain insights into
 5. Connect Looker to your data warehouse and visualize the cohort analysis.
 
 ## Results
-- The project includes a Looker dashboard visualizing cohort retention rates over time.
+- The final model for cohort retention rates over time is created which is visualized using looker dashboard
 - Detailed documentation on how to set up and run the project.
 
 ## Conclusion
